@@ -1,0 +1,101 @@
+@font-face{
+    font-family: 'Pacifico';
+    src: url('/lesson5/fonts/Pacifico-Regular.ttf');
+}
+body{
+    font-family: "Pacifico";
+    background: linear-gradient(#03d7fc,#097487);
+}
+
+
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 1px solid black;
+}
+
+img{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 0% 30% 0% 30%;
+} 
+
+.title{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid black;
+}
+
+.title:hover{
+    color:red;
+    font-size: 25px;
+}
+
+.all2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 1px solid black;
+}
+.pus{
+    width: 150px;
+    margin: 30px;
+        
+}
+
+p,h5,h1{
+        margin: 1px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+
+.obo{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.name1:hover{
+    color:yellow;
+}
+
+.name2:hover{
+    color:green;
+}
+
+.name3:hover{
+    color:white;
+   
+}
+
+.all3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 1px solid black;
+}
+
+.pus2{
+    width: 150px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.obo2{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
